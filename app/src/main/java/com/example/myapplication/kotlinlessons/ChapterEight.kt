@@ -1,8 +1,8 @@
 package com.example.myapplication.kotlinlessons
 
-object LessonEight {
+object ChapterEight {
 
-    val TAG = LessonEight::class.simpleName
+    val TAG = ChapterEight::class.simpleName
     fun createArrays() {
 
         val array1 = Array(10) { 10 }

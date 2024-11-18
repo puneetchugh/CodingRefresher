@@ -11,15 +11,15 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.myapplication.kotlinlessons.LessonEight
-import com.example.myapplication.kotlinlessons.LessonEight.challenges
+import com.example.myapplication.kotlinlessons.ChapterEight
+import com.example.myapplication.kotlinlessons.ChapterEight.challenges
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        LessonEight.createArrays()
+        ChapterEight.createArrays()
         challenges()
         setContent {
             MyApplicationTheme {
