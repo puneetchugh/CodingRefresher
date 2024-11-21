@@ -13,6 +13,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.myapplication.kotlinlessons.ChapterEight
 import com.example.myapplication.kotlinlessons.ChapterEight.challenges
+import com.example.myapplication.kotlinlessons.ChapterTen
+import com.example.myapplication.kotlinlessons.ChapterTen.builtInLambdas
+import com.example.myapplication.kotlinlessons.ChapterTen.builtInMapAssociateLambdas
+import com.example.myapplication.kotlinlessons.ChapterTen.creatingLambdas
+import com.example.myapplication.kotlinlessons.chapter12.Chapter12.getters
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,6 +26,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         ChapterEight.createArrays()
         challenges()
+        getters()
+        creatingLambdas()
+        builtInMapAssociateLambdas()
+        builtInLambdas()
+        ChapterTen.challenges()
         setContent {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
