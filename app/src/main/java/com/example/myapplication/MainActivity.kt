@@ -31,6 +31,12 @@ class MainActivity : ComponentActivity() {
         builtInMapAssociateLambdas()
         builtInLambdas()
         ChapterTen.challenges()
+
+        SmallestDistance.driverFunction()
+        EventManagerDriver.eventManagerDriver()
+        TestingParallelCoroutines.driverFunction()
+        HashMapOperations.driverFunction()
+
         setContent {
             MyApplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
